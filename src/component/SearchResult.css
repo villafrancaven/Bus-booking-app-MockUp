@@ -1,0 +1,118 @@
+.searchResult {
+    display: flex;
+    position: relative;
+    margin: 20px;
+    padding: 20px;
+    border-bottom: 1px solid lightgray;
+}
+
+.searchResult:hover {
+    opacity: 0.8;
+}
+
+.searchResult > img {
+    height: 200px;
+    width: 350px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.searchResult__info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-left: 20px;
+}
+
+.searchResult__infoTop {
+    width: 40vw;
+}
+
+.searchResult__infoTop > h3 {
+    font-weight: 300;
+    margin-top: 10px;
+}
+
+.searchResult__infoTop > p {
+    margin-top: 10px;
+    font-size: 13px;
+    color: gray;
+}
+
+.searchResult__price {
+    display: flex;
+    justify-content: space-between;
+}
+
+.searchResult__price > h2 {
+    font-size: 20px;    
+}
+
+.searchResult__price > button {
+    background-color: rgb(36, 125, 181);
+    color: white;
+    text-transform: inherit;
+    margin-top: 20px;
+    font-weight: 600;
+}
+
+.searchResult__price > button:hover {
+    color: rgb(36, 125, 181);
+    background-color: white;
+}
+
+/* modal */
+.modal__details {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-height: 96vh;
+}
+
+.modal__img {
+    width: 30rem;
+    margin: 0;
+}
+
+.modal__description {
+    flex: 1 1;
+    margin: 1rem;
+}
+
+.modal__close {
+    position: absolute;
+    right: 1rem;
+    top: 2.5rem;
+    z-index: 1000;
+    border-radius: .5rem;
+}
+
+.modal__title {
+    font-weight: bold;
+    font-size: larger;
+}
+
+.modal__price {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 3rem;
+}
+
+.modal__price > div {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.modal__price > button {
+    background-color: rgb(36, 125, 181);
+    color: white;
+    text-transform: inherit;
+    margin-top: 20px;
+    font-weight: 600;
+}
+
+.modal__price > button:hover {
+    color: rgb(36, 125, 181);
+    background-color: white;
+}

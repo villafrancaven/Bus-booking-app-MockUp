@@ -1,0 +1,32 @@
+.nav {
+    height: 50px;
+    display: flex;
+    padding: 7px 36px;
+    box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav__menu {
+    display: flex;
+    align-items: center;
+}
+
+.nav__menu > li {
+    margin-right: 5rem;
+}
+
+.nav__menu > li, a {
+    list-style: none;
+    text-decoration: none;
+    color: black;
+}
+
+.nav__name {
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.nav__span {
+    color:rgb(36, 125, 181);
+}

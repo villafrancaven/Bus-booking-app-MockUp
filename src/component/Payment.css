@@ -1,0 +1,201 @@
+:root {
+    --color-background: white;
+    --color-primary: rgb(36, 125, 181);
+    --font-size-h1: 1.25rem;
+    --font-size-h2: 1rem;
+}
+
+.paymentform__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+}
+
+.paymentform__svg {
+    display: none;
+}
+
+button {
+    border: 0;
+    color: inherit;
+    cursor: pointer;
+    font: inherit;
+  }
+  
+  fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+  }
+  
+.paymentform__h1 {
+  font-size: var(--font-size-h1);
+  line-height: 1.2;
+  margin-block: 0 1.5em;
+}
+  
+.paymentform__h2 {
+  font-size: var(--font-size-h2);
+  line-height: 1.2;
+  margin-block: 0 0.5em;
+}
+  
+legend {
+  font-weight: 600;
+  margin-block-end: 0.5em;
+  padding: 0;
+}
+  
+.payment__input {
+  border: 0;
+  color: inherit;
+  font: inherit;
+}
+
+.payment__input[type="radio"] {
+  accent-color: var(--color-primary);
+}
+  
+  table {
+    border-collapse: collapse;
+    inline-size: 100%;
+  }
+  
+  tbody {
+    color: #b4b4b4;
+  }
+  
+  td {
+    padding-block: 0.125em;
+  }
+  
+  tfoot {
+    border-top: 1px solid #b4b4b4;
+    font-weight: 600;
+  }
+  
+  .align {
+    display: grid;
+    place-items: center;
+  }
+  
+  .button__payment {
+    align-items: center;
+    background-color: var(--color-primary);
+    border-radius: 999em;
+    color: #fff;
+    display: flex;
+    gap: 0.5em;
+    justify-content: center;
+    padding-block: 0.75em;
+    padding-inline: 1em;
+    transition: 0.3s;
+  }
+  
+  .button__payment:focus,
+  .button__payment:hover {
+    background-color: white;
+    color: var(--color-primary);
+  }
+  
+  .button--full {
+    inline-size: 100%;
+  }
+  
+  .payment__card {
+    border-radius: 1em;
+    background-color: var(--color-primary);
+    color: #fff;
+    padding: 1em;
+  }
+  
+  .payment__form {
+    display: grid;
+    gap: 2em;
+  }
+  
+  .form__radios {
+    display: grid;
+    gap: 1em;
+  }
+  
+  .form__radio {
+    align-items: center;
+    background-color: #fefdfe;
+    border-radius: 1em;
+    box-shadow: 0 0 1em rgba(0, 0, 0, 0.0625);
+    display: flex;
+    padding: 1em;
+  }
+  
+  .form__radio label {
+    align-items: center;
+    display: flex;
+    flex: 1;
+    gap: 1em;
+  }
+  
+  .paymentform__header {
+    display: flex;
+    justify-content: center;
+    padding-block: 0.5em;
+    padding-inline: 1em;
+  }
+  
+  .icon {
+    block-size: 1em;
+    display: inline-block;
+    fill: currentColor;
+    inline-size: 1em;
+    vertical-align: middle;
+  }
+  
+  .iphone {
+    background-color: #fbf6f7;
+    background-image: linear-gradient(to bottom, #fbf6f7, #fff);
+    border-radius: 2em;
+    block-size: 812px;
+    box-shadow: 0 0 1em rgba(0, 0, 0, 0.0625);
+    inline-size: 375px;
+    overflow: auto;
+    padding: 2em;
+  }
+
+.payment__denied__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20rem;
+  flex-direction: column;
+}
+
+.payment__denied__button {
+  text-transform: inherit !important;
+}
+
+
+.seat__details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 15rem;
+}
+
+.seat__details > h3 {
+  color: green;
+}
+
+.seat__button {
+  left: 28%;
+  background-color: rgb(36, 125, 181) !important;
+  color: white !important;
+  text-transform: inherit !important;
+  margin-top: 20px !important;
+  font-weight: 600 !important;
+}
+
+.seat__button:hover {
+  background-color: white !important;
+  color: rgb(36, 125, 181) !important;
+}

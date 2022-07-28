@@ -1,0 +1,50 @@
+.banner {
+    background: url("https://media.cntraveler.com/photos/624f4d7e7f7d5db03e42a16e/master/w_1920%2Cc_limit/rooftop-terrace-apartment-lisbon-airbnb-may21-pr.jpg") center center;
+    height: 70vh;
+    position: relative;
+}
+
+.banner__2 {
+    background: url("https://images.unsplash.com/photo-1570125909994-e06d01047c28?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80") center center;
+    height: 60vh;
+    position: relative;
+}
+
+.banner__info {
+    background-color: black;
+    color: white;
+    padding-top: 25vh;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 40px;
+    width: 300px;
+}
+
+.banner__info > button {
+    background-color: rgb(36, 125, 181);
+    color: white;
+    text-transform: inherit;
+    margin-top: 20px;
+    font-weight: 600;
+}
+
+.banner__info > button:hover {
+    background-color: white;
+    color: rgb(36, 125, 181);
+}
+
+.banner__info > h5 {
+    margin: 10px;
+}
+
+.banner__search {
+    display: flex;
+    flex-direction: column;
+}
+
+.banner__searchButton {
+    background: white !important;
+    font-weight: 600 !important;
+    text-transform: inherit !important;
+    color: rgb(36, 125, 181) !important;
+}

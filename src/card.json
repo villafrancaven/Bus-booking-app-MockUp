@@ -1,0 +1,46 @@
+{
+    "promos": [
+        {
+            "id": 1,
+            "title": "Manila to Baguio",
+            "img": "https://www.phbus.com/wp-content/uploads/2021/11/joy-bus.jpg",
+            "description": "Top quality commute. Relax while traveling.",
+            "price": 600
+        },
+        {
+            "id": 2,
+            "title": "Manila to Batangas",
+            "img": "https://www.phbus.com/wp-content/uploads/2021/10/jam-bus.jpg",
+            "description": "Top quality commute. Relax while traveling.",
+            "price": 280
+        },
+        {
+            "id": 3,
+            "title": "Manila to Subic",
+            "img": "https://www.thepoortraveler.net/wp-content/uploads/2019/02/IMG_5172A-1024x768.jpg",
+            "description": "Top quality commute. Relax while traveling.",
+            "price": 400
+        },
+        {
+            "id": 4,
+            "title": "Manila to Bicol",
+            "img": "https://bustickets.ph/wp-content/uploads/2020/08/dltbco-bus.jpg.webp",
+            "description": "Top quality commute. Relax while traveling.",
+            "price": 850
+        },
+        {
+            "id": 5,
+            "title": "Manila to Sagada",
+            "img": "https://img.12go.co/0/plain/s3://12go-web-static/static/images/operator/2168/class/3843-outside.jpeg",
+            "description": "Top quality commute. Relax while traveling.",
+            "price": 500
+        },
+        {
+            "id": 6,
+            "title": "Manila to Vigan",
+            "img": "https://bustickets.ph/wp-content/uploads/2020/08/farinas-bus.jpg",
+            "description": "Top quality commute. Relax while traveling.",
+            "price": 750
+        }
+    ]
+}
